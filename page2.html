@@ -5,33 +5,44 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/style.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto:wght@100&display=swap" rel="stylesheet">  
     <title></title>
 
     <style>
         body {
+            flex: 1;
+            justify-content: center;
+            align-content: center;
             align-items: center;
             text-align: center;
+            background-color: black;
+            color:white;
+            font-family: 'Maven Pro', sans-serif;
+            padding-bottom: 25px;
         }
     </style>
 
   </head>
   <body>
 
-        <p id="square">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, enim assumenda </p>
-            <p id="square1">eum quisquam nihil dolore vitae expedita rerum accusamus modi! </p>
-            <p id="square2">Eveniet qui nobis officia. Doloremque excepturi esse totam quasi repellendus.</p>
+        <h3 data-aos="fade-down" data-aos-duration="2000"> Hey There , Early Birds </h3>
+            <p data-aos="fade-down" data-aos-duration="2000"> The store is still in the works and seems like you are early. </p>
+            <p data-aos="fade-down" data-aos-duration="2000">No worries since you are already here,
+              <br>why don't you join in our Discord and get yourself aware 
+              <br>of what's going on also here is a <a href="#" style="text-decoration: none;">POAP</a> while
+              <br>you are here . The POAP allows you to get 
+              <br>access to our bold community call and
+              <br>several other parks on the way . It's free 
+              <br>and see you on the Otherside of on-chain commence
+            </p>
          
-    <script src="anijs-min.js"></script>
-
-    <script>
-    ScrollReveal().reveal('#square');
-    ScrollReveal().reveal('#square1', { delay: 500 });
-    ScrollReveal().reveal('#square2', { delay: 900 });
-    </script>
-
+    
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
